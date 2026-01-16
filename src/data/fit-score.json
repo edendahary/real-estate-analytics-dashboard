@@ -1,0 +1,405 @@
+{
+    "fit_score_overall": 5.6,
+    "f_scores": [
+        {
+            "zip_code": "30028",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "46075",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "80550",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "80908",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "80924",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "83642",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "83686",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "95019",
+            "fit_score": 5.67
+        },
+        {
+            "zip_code": "92585",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "80236",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "81008",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "83687",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "93620",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "93630",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "95742",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "95824",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "35068",
+            "fit_score": 5.66
+        },
+        {
+            "zip_code": "93625",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "30013",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "50021",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "50211",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "50263",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "85307",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "85340",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "31820",
+            "fit_score": 5.65
+        },
+        {
+            "zip_code": "80108",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "81647",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "47170",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "80018",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "80921",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "81637",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "83854",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "85212",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "90056",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "30548",
+            "fit_score": 5.64
+        },
+        {
+            "zip_code": "80547",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "30253",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "46062",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "72713",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "85338",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "92584",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "93927",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "95694",
+            "fit_score": 5.63
+        },
+        {
+            "zip_code": "30248",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "46214",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "80209",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "86409",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "91708",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "92120",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "92408",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "95012",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "95354",
+            "fit_score": 5.62
+        },
+        {
+            "zip_code": "36064",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "60436",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "85085",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "85305",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "94158",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "83402",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "30360",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "30566",
+            "fit_score": 5.61
+        },
+        {
+            "zip_code": "72417",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "85012",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "85128",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "91101",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "93256",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "36527",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "31029",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "31407",
+            "fit_score": 5.6
+        },
+        {
+            "zip_code": "30341",
+            "fit_score": 5.59
+        },
+        {
+            "zip_code": "31405",
+            "fit_score": 5.59
+        },
+        {
+            "zip_code": "60610",
+            "fit_score": 5.59
+        },
+        {
+            "zip_code": "29829",
+            "fit_score": 5.58
+        },
+        {
+            "zip_code": "85716",
+            "fit_score": 5.58
+        },
+        {
+            "zip_code": "93501",
+            "fit_score": 5.58
+        },
+        {
+            "zip_code": "46803",
+            "fit_score": 5.57
+        },
+        {
+            "zip_code": "85003",
+            "fit_score": 5.57
+        },
+        {
+            "zip_code": "31093",
+            "fit_score": 5.56
+        },
+        {
+            "zip_code": "92657",
+            "fit_score": 5.56
+        },
+        {
+            "zip_code": "46962",
+            "fit_score": 5.55
+        },
+        {
+            "zip_code": "72227",
+            "fit_score": 5.55
+        },
+        {
+            "zip_code": "81621",
+            "fit_score": 5.54
+        },
+        {
+            "zip_code": "35209",
+            "fit_score": 5.54
+        },
+        {
+            "zip_code": "35228",
+            "fit_score": 5.54
+        },
+        {
+            "zip_code": "47882",
+            "fit_score": 5.54
+        },
+        {
+            "zip_code": "90401",
+            "fit_score": 5.54
+        },
+        {
+            "zip_code": "94105",
+            "fit_score": 5.54
+        },
+        {
+            "zip_code": "31636",
+            "fit_score": 5.54
+        },
+        {
+            "zip_code": "92014",
+            "fit_score": 5.53
+        },
+        {
+            "zip_code": "95453",
+            "fit_score": 5.53
+        },
+        {
+            "zip_code": "85004",
+            "fit_score": 5.52
+        },
+        {
+            "zip_code": "85054",
+            "fit_score": 5.52
+        },
+        {
+            "zip_code": "31211",
+            "fit_score": 5.5
+        },
+        {
+            "zip_code": "31315",
+            "fit_score": 5.49
+        },
+        {
+            "zip_code": "92342",
+            "fit_score": 5.49
+        },
+        {
+            "zip_code": "95202",
+            "fit_score": 5.48
+        },
+        {
+            "zip_code": "36107",
+            "fit_score": 5.47
+        },
+        {
+            "zip_code": "31901",
+            "fit_score": 5.46
+        },
+        {
+            "zip_code": "86351",
+            "fit_score": 5.43
+        },
+        {
+            "zip_code": "86046",
+            "fit_score": 5.42
+        },
+        {
+            "zip_code": "92118",
+            "fit_score": 5.41
+        }
+    ]
+}
