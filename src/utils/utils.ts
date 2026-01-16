@@ -1,3 +1,4 @@
+import type { FilterModel } from "ag-grid-community";
 import type { MetricKind } from "../types/metric.config";
 
 export function avg(nums: number[]) {
@@ -13,3 +14,50 @@ export function formatValue(kind: MetricKind, value: number) {
 }
 
 
+
+
+function formatSimpleCondition(cond: FilterModel): string {
+  // מספרים
+  if (typeof cond?.filter === "number") {
+    if (cond.filterTo != null)
+      return `${cond.type}: ${cond.filter} - ${cond.filterTo}`;
+    return `${cond.type}: ${cond.filter}`;
+  }
+
+  // טקסט
+  if (typeof cond?.filter === "string") {
+    return `${cond.type ?? "contains"}: "${cond.filter}"`;
+  }
+
+  // fallback
+  return cond?.type ? String(cond.type) : "";
+}
+
+export function formatFilterValue(model: FilterModel): string {
+  const m = model;
+
+  // ✅ Multi-condition (AND/OR)
+  if (m?.operator && Array.isArray(m?.conditions)) {
+    const parts = m.conditions
+      .map((c: FilterModel) => formatSimpleCondition(c))
+      .filter(Boolean);
+
+    return parts.join(` ${m.operator} `);
+  }
+
+  // ✅ Single text/number filter
+  if (typeof m?.filter === "string") {
+    return `${m.type ?? "contains"}: "${m.filter}"`;
+  }
+  if (typeof m?.filter === "number") {
+    if (m.filterTo != null) return `${m.type}: ${m.filter} - ${m.filterTo}`;
+    return `${m.type}: ${m.filter}`;
+  }
+
+  // ✅ Set filter
+  if (Array.isArray(m?.values)) {
+    return m.values.join(", ");
+  }
+
+  return "";
+}

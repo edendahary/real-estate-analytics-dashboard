@@ -31,10 +31,22 @@ export function ChartTooltip({
 
       <Box sx={{ mt: 0.5, display: "grid", gap: 0.25 }}>
         <Typography variant="caption" sx={{ opacity: 0.8 }}>
-          {xMetric.label}: <b>{formatValue(xMetric.kind, p.x)}</b>
+          {xMetric.label}:{" "}
+          <Typography
+            component="span"
+            sx={{ fontWeight: "bold", fontSize: 12 }}
+          >
+            {formatValue(xMetric.kind, p.x)}
+          </Typography>
         </Typography>
         <Typography variant="caption" sx={{ opacity: 0.8 }}>
-          {yMetric.label}: <b>{formatValue(yMetric.kind, p.y)}</b>
+          {yMetric.label}:{" "}
+          <Typography
+            component="span"
+            sx={{ fontWeight: "bold", fontSize: 12 }}
+          >
+            {formatValue(yMetric.kind, p.y)}
+          </Typography>
         </Typography>
       </Box>
     </Paper>

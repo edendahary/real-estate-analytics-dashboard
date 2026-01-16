@@ -1,5 +1,9 @@
 import { Autocomplete, TextField } from "@mui/material";
-import { METRICS, type MetricKey, type MetricOption } from "../types/metric.config";
+import {
+  METRICS,
+  type MetricKey,
+  type MetricOption,
+} from "../types/metric.config";
 
 export function MetricSelect({
   id,
@@ -41,7 +45,11 @@ export function MetricSelect({
           return label.includes(q) || key.includes(q);
         });
       }}
-      slotProps={{ listbox: { sx: { minWidth: 220, whiteSpace:"nowrap",textOverflow:"ellipsis" } } }}
+      slotProps={{
+        listbox: {
+          sx: { minWidth: 220, whiteSpace: "nowrap", textOverflow: "ellipsis" },
+        },
+      }}
       sx={{ flex: "1 1 0", minWidth: 220 }}
       renderInput={(params) => (
         <TextField {...params} label={label} placeholder="Search…" />

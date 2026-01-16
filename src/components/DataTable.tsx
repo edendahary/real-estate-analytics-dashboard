@@ -17,7 +17,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import SouthEastIcon from "@mui/icons-material/SouthEast";
 import type { TrendCode } from "../types/types";
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 type Props = {
   rows: TableRow[];
@@ -333,7 +333,6 @@ export default function DataTable({
     []
   );
 
-  // ✅ זהות יציבה לכל שורה = zip_code
   const getRowId = useMemo(() => {
     return (params: { data: TableRow }) => params.data.zip_code;
   }, []);
@@ -386,13 +385,14 @@ export default function DataTable({
   };
 
   return (
-    <div
+    <Box
       className="ag-theme-alpine"
-      style={{
+      sx={{
         height: 500,
         width: "100%",
-        border: "1px solid #ddd",
-        borderRadius: 8,
+        border: "1px solid",
+        borderColor: "divider",
+        borderRadius: 2,
       }}
     >
       <AgGridReact<TableRow>
@@ -412,6 +412,6 @@ export default function DataTable({
         onSortChanged={onSortChanged}
         animateRows
       />
-    </div>
+    </Box>
   );
 }
